@@ -1,8 +1,8 @@
 {
     "name": "BabyAGI",
-    "build": {
-      "dockerFile": "../Dockerfile"
-    },
+    "dockerComposeFile": "../docker-comose.yml",
+    "service": "babyagi",
+    "workspaceFolder": "/app",
     "customizations": {
         "vscode": {
             "extensions": [
