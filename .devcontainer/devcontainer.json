@@ -1,0 +1,14 @@
+{
+    "name": "BabyAGI",
+    "build": {
+      "dockerFile": "../Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "donjayamanne.python-extension-pack",
+                "GitHub.copilot"
+            ]
+        }
+    }
+}
